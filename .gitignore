@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# 测试和调试文件
+test_result.json
+*.log
+*test*.py
+*debug*.py
+*debug*.bat
+test*.bat
+运行测试.bat
+调试*.bat
+format_check.py
+quick_test.py
+simple_test*.py
+
+# 示例和演示文件
+example.py
+id_crawler.py
+cf_email_decoder.py
+config.example.*
+
+# Windows批处理文件
+*.bat
+
+# 本地文档（测试说明等）
+测试说明.txt
+快速测试.txt
+RUN_TEST.txt
+MANUAL_TEST.md
+TEST_GUIDE.md
+TEST_UPDATE.md
+UPDATE_NOTES.md
+
+# 生成的文件（GitHub Actions会自动生成并提交）
+# 注意：这些文件不应该被忽略，因为需要提交到GitHub
+# apple_ids.json
+# api_data.json
+# apple_ids_simple.json
+# blog_accounts.json
+# accounts_simple.json
+
+# 本地定时任务（GitHub Actions不需要）
+scheduler.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+
+# 本地配置文件（如果包含敏感信息）
+config.json
