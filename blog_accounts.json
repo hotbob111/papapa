@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-04-06 14:17:00",
+  "update_time": "2026-04-06 17:33:08",
   "count": 2,
   "accounts": [
     {
-      "account": "ma***@terra.com.br",
-      "email": "marcio.mail@terra.com.br",
-      "fullEmail": "marcio.mail@terra.com.br",
-      "password": "jTMVMfSQy3",
-      "region": "JP",
-      "regionName": "日本",
+      "account": "nb***@hotmail.com",
+      "email": "nbrvc11222@hotmail.com",
+      "fullEmail": "nbrvc11222@hotmail.com",
+      "password": "RVdE5JjDWs",
+      "region": "US",
+      "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-04-06 22:01:40",
-      "crawl_time": "2026-04-06 14:17:00",
+      "checkTime": "2025-11-07 12:22:45",
+      "crawl_time": "2026-04-06 17:33:08",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "vj***@icloud.com",
-      "email": "vjskc504wzj25in6zyk@icloud.com",
-      "fullEmail": "vjskc504wzj25in6zyk@icloud.com",
-      "password": "MxAUJzfm6j",
-      "region": "JP",
-      "regionName": "日本",
+      "account": "nx***@icloud.com",
+      "email": "nxauvd3rhwwnwqv1tfjy@icloud.com",
+      "fullEmail": "nxauvd3rhwwnwqv1tfjy@icloud.com",
+      "password": "HsYYC6zgqF",
+      "region": "CN",
+      "regionName": "中国大陆",
       "status": "正常",
-      "checkTime": "2026-04-06 21:51:24",
-      "crawl_time": "2026-04-06 14:17:00",
+      "checkTime": "2026-04-07 01:18:29",
+      "crawl_time": "2026-04-06 17:33:08",
       "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
