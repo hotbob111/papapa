@@ -1,30 +1,30 @@
 {
-  "update_time": "2026-04-13 16:21:52",
+  "update_time": "2026-04-13 20:14:17",
   "count": 2,
   "accounts": [
     {
-      "account": "nb***@hotmail.com",
-      "email": "nbrvc11222@hotmail.com",
-      "fullEmail": "nbrvc11222@hotmail.com",
-      "password": "RVdE5JjDWs",
+      "account": "et***@icloud.com",
+      "email": "ethanjohnmx675@icloud.com",
+      "fullEmail": "ethanjohnmx675@icloud.com",
+      "password": "1aAZj8XG36",
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-04-13 16:21:52",
-      "crawl_time": "2026-04-13 16:21:52",
+      "checkTime": "2026-04-13 20:14:17",
+      "crawl_time": "2026-04-13 20:14:17",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "zm***@icloud.com",
-      "email": "zmasoncx3366@icloud.com",
-      "fullEmail": "zmasoncx3366@icloud.com",
-      "password": "E2byjzur6v",
+      "account": "ya***@hotmail.com",
+      "email": "yawezkeuidnj@hotmail.com",
+      "fullEmail": "yawezkeuidnj@hotmail.com",
+      "password": "dqrVQW7WJf",
       "region": "US",
-      "regionName": "美国",
+      "regionName": "日区共享ID",
       "status": "正常",
-      "checkTime": "2026-04-13 16:21:52",
-      "crawl_time": "2026-04-13 16:21:52",
-      "source_page": "https://ccbaohe.com/appleID/"
+      "checkTime": "2026-04-13 20:14:14",
+      "crawl_time": "2026-04-13 20:14:14",
+      "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
 }
