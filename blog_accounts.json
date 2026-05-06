@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-06 22:38:05",
+  "update_time": "2026-05-06 23:39:29",
   "count": 2,
   "accounts": [
     {
@@ -10,21 +10,21 @@
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-05-06 22:38:05",
-      "crawl_time": "2026-05-06 22:38:05",
+      "checkTime": "2026-05-06 23:39:29",
+      "crawl_time": "2026-05-06 23:39:29",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "cx***@outlook.com",
-      "email": "cxfrydvp@outlook.com",
-      "fullEmail": "cxfrydvp@outlook.com",
-      "password": "4s3tV1TR4z",
+      "account": "Na***@hotmail.com",
+      "email": "NathanieiJonas1967@hotmail.com",
+      "fullEmail": "NathanieiJonas1967@hotmail.com",
+      "password": "TS6XHryPgT",
       "region": "US",
-      "regionName": "美国",
+      "regionName": "美区小火箭ID",
       "status": "正常",
-      "checkTime": "2026-05-06 22:38:05",
-      "crawl_time": "2026-05-06 22:38:05",
-      "source_page": "https://ccbaohe.com/appleID/"
+      "checkTime": "2026-05-06 23:39:25",
+      "crawl_time": "2026-05-06 23:39:25",
+      "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
 }
