@@ -1,30 +1,30 @@
 {
-  "update_time": "2026-05-05 23:38:24",
+  "update_time": "2026-05-06 01:29:23",
   "count": 2,
   "accounts": [
     {
-      "account": "Ma***@outlook.com",
-      "email": "MadgeLance1980@outlook.com",
-      "fullEmail": "MadgeLance1980@outlook.com",
-      "password": "vb8gR6YCKe",
+      "account": "nl***@outlook.com",
+      "email": "nljhs17072228@outlook.com",
+      "fullEmail": "nljhs17072228@outlook.com",
+      "password": "BtXg62CGbs",
+      "region": "US",
+      "regionName": "美区小火箭ID",
+      "status": "正常",
+      "checkTime": "2026-05-06 01:29:20",
+      "crawl_time": "2026-05-06 01:29:20",
+      "source_page": "https://tkbaohe.com/Shadowrocket/"
+    },
+    {
+      "account": "ah***@hotmail.com",
+      "email": "ahqf38@hotmail.com",
+      "fullEmail": "ahqf38@hotmail.com",
+      "password": "TZwcsNJ5V3",
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-05-05 23:38:24",
-      "crawl_time": "2026-05-05 23:38:24",
+      "checkTime": "2026-05-06 01:29:23",
+      "crawl_time": "2026-05-06 01:29:23",
       "source_page": "https://ccbaohe.com/appleID/"
-    },
-    {
-      "account": "Wi***@outlook.com",
-      "email": "WildeHarriet1992@outlook.com",
-      "fullEmail": "WildeHarriet1992@outlook.com",
-      "password": "jgPmf11wze",
-      "region": "US",
-      "regionName": "美国-🇺",
-      "status": "正常",
-      "checkTime": "2026-05-05 23:38:21",
-      "crawl_time": "2026-05-05 23:38:21",
-      "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
 }
