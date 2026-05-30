@@ -1,7 +1,19 @@
 {
-  "update_time": "2026-05-29 22:23:11",
+  "update_time": "2026-05-30 00:00:54",
   "count": 2,
   "accounts": [
+    {
+      "account": "Be***@gmail.com",
+      "email": "BettyGarcia5be56@gmail.com",
+      "fullEmail": "BettyGarcia5be56@gmail.com",
+      "password": "44s4nrRa3yZnJ5",
+      "region": "US",
+      "regionName": "美区",
+      "status": "正常",
+      "checkTime": "2026-05-30 00:00:54",
+      "crawl_time": "2026-05-30 00:00:54",
+      "source_page": "https://ccbaohe.com/appleID/"
+    },
     {
       "account": "An***@outlook.com",
       "email": "AngelaPoolepujh@outlook.com",
@@ -10,21 +22,9 @@
       "region": "SG",
       "regionName": "新加坡",
       "status": "正常",
-      "checkTime": "2026-05-29 22:23:07",
-      "crawl_time": "2026-05-29 22:23:07",
+      "checkTime": "2026-05-30 00:00:50",
+      "crawl_time": "2026-05-30 00:00:50",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
-    },
-    {
-      "account": "ox***@hotmail.com",
-      "email": "oxnmxj97798t@hotmail.com",
-      "fullEmail": "oxnmxj97798t@hotmail.com",
-      "password": "4hgdRyqNuy",
-      "region": "US",
-      "regionName": "美国",
-      "status": "正常",
-      "checkTime": "2026-05-29 22:23:11",
-      "crawl_time": "2026-05-29 22:23:11",
-      "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
 }
