@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-06-06 18:00:21",
+  "update_time": "2026-06-06 19:26:02",
   "count": 2,
   "accounts": [
+    {
+      "account": "Go***@hotmail.com",
+      "email": "GorgeWillming415162@hotmail.com",
+      "fullEmail": "GorgeWillming415162@hotmail.com",
+      "password": "BaQjXJSV96",
+      "region": "US",
+      "regionName": "美国",
+      "status": "正常",
+      "checkTime": "2026-06-06 19:26:02",
+      "crawl_time": "2026-06-06 19:26:02",
+      "source_page": "https://ccbaohe.com/appleID/"
+    },
     {
       "account": "An***@outlook.com",
       "email": "AndreSnow2619@outlook.com",
       "fullEmail": "AndreSnow2619@outlook.com",
       "password": "5MHS4y3Gqw",
-      "region": "JP",
-      "regionName": "日本",
+      "region": "US",
+      "regionName": "日本-🇯🇵",
       "status": "正常",
-      "checkTime": "2026-06-06 18:00:18",
-      "crawl_time": "2026-06-06 18:00:18",
-      "source_page": "https://tkbaohe.com/Shadowrocket/"
-    },
-    {
-      "account": "Fe***@outlook.com",
-      "email": "FeliciaWilliamson9137Ta1@outlook.com",
-      "fullEmail": "FeliciaWilliamson9137Ta1@outlook.com",
-      "password": "158ZJ9Hz5E",
-      "region": "HK",
-      "regionName": "香港",
-      "status": "正常",
-      "checkTime": "2026-06-06 18:00:18",
-      "crawl_time": "2026-06-06 18:00:18",
+      "checkTime": "2026-06-06 19:25:59",
+      "crawl_time": "2026-06-06 19:25:59",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
