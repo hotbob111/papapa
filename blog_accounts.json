@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-06-16 12:00:27",
+  "update_time": "2026-06-16 16:56:40",
   "count": 2,
   "accounts": [
     {
-      "account": "Be***@outlook.com",
-      "email": "BenjaminMiranda3613@outlook.com",
-      "fullEmail": "BenjaminMiranda3613@outlook.com",
-      "password": "a2K3te36aF",
-      "region": "US",
-      "regionName": "日本-🇯🇵",
-      "status": "正常",
-      "checkTime": "2026-06-16 12:00:23",
-      "crawl_time": "2026-06-16 12:00:23",
-      "source_page": "https://tkbaohe.com/Shadowrocket/"
-    },
-    {
-      "account": "St***@hotmail.com",
-      "email": "StoneyScritchfield64696@hotmail.com",
-      "fullEmail": "StoneyScritchfield64696@hotmail.com",
-      "password": "m8NPbjWpt6",
+      "account": "cd***@comic.com",
+      "email": "cdib22039@comic.com",
+      "fullEmail": "cdib22039@comic.com",
+      "password": "W6FZ5NJuTg",
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-06-16 12:00:27",
-      "crawl_time": "2026-06-16 12:00:27",
+      "checkTime": "2026-06-16 16:56:40",
+      "crawl_time": "2026-06-16 16:56:40",
+      "source_page": "https://ccbaohe.com/appleID/"
+    },
+    {
+      "account": "Be***@gmail.com",
+      "email": "BettyGarcia5be56@gmail.com",
+      "fullEmail": "BettyGarcia5be56@gmail.com",
+      "password": "44s4nrRa3yZnJ5",
+      "region": "US",
+      "regionName": "美区",
+      "status": "正常",
+      "checkTime": "2026-06-16 16:56:40",
+      "crawl_time": "2026-06-16 16:56:40",
       "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
