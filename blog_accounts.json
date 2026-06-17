@@ -1,30 +1,30 @@
 {
-  "update_time": "2026-06-17 17:42:40",
+  "update_time": "2026-06-17 19:55:35",
   "count": 2,
   "accounts": [
     {
-      "account": "Be***@gmail.com",
-      "email": "BettyGarcia5be56@gmail.com",
-      "fullEmail": "BettyGarcia5be56@gmail.com",
-      "password": "44s4nrRa3yZnJ5",
+      "account": "ja***@outlook.com",
+      "email": "jairfarmaniel@outlook.com",
+      "fullEmail": "jairfarmaniel@outlook.com",
+      "password": "UnM3zNRJet",
       "region": "US",
-      "regionName": "美区",
+      "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-06-17 17:42:40",
-      "crawl_time": "2026-06-17 17:42:40",
+      "checkTime": "2026-06-17 19:55:35",
+      "crawl_time": "2026-06-17 19:55:35",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "Da***@hotmail.com",
-      "email": "DavidPerez4266@hotmail.com",
-      "fullEmail": "DavidPerez4266@hotmail.com",
-      "password": "a8FjR5292K",
-      "region": "US",
-      "regionName": "台湾-🇨🇳",
+      "account": "td***@outlook.com",
+      "email": "td7w1r8_w6j8j3l3w4e8g1f2m2@outlook.com",
+      "fullEmail": "td7w1r8_w6j8j3l3w4e8g1f2m2@outlook.com",
+      "password": "pwWNy5YK",
+      "region": "TW",
+      "regionName": "台湾",
       "status": "正常",
-      "checkTime": "2026-06-17 17:42:36",
-      "crawl_time": "2026-06-17 17:42:36",
-      "source_page": "https://tkbaohe.com/Shadowrocket/"
+      "checkTime": "2026-06-17 19:55:35",
+      "crawl_time": "2026-06-17 19:55:35",
+      "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
 }
