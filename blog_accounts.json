@@ -1,30 +1,30 @@
 {
-  "update_time": "2026-06-17 10:28:41",
+  "update_time": "2026-06-17 14:21:35",
   "count": 2,
   "accounts": [
     {
-      "account": "vl***@bk.ru",
-      "email": "vladimir-kruglova87_42@bk.ru",
-      "fullEmail": "vladimir-kruglova87_42@bk.ru",
-      "password": "nnRbG9G4Tb",
-      "region": "VN",
-      "regionName": "越南",
+      "account": "ng***@outlook.com",
+      "email": "ng5d2j1d3v1j8_e3l1g4t2m7i4c@outlook.com",
+      "fullEmail": "ng5d2j1d3v1j8_e3l1g4t2m7i4c@outlook.com",
+      "password": "28v8PT9s",
+      "region": "MY",
+      "regionName": "马来西亚",
       "status": "正常",
-      "checkTime": "2026-06-17 10:28:41",
-      "crawl_time": "2026-06-17 10:28:41",
+      "checkTime": "2026-06-17 14:21:35",
+      "crawl_time": "2026-06-17 14:21:35",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "Ca***@outlook.com",
-      "email": "CalvinRichardoRga@outlook.com",
-      "fullEmail": "CalvinRichardoRga@outlook.com",
-      "password": "NVWMrHJ8gK",
+      "account": "Be***@gmail.com",
+      "email": "BettyGarcia5be56@gmail.com",
+      "fullEmail": "BettyGarcia5be56@gmail.com",
+      "password": "44s4nrRa3yZnJ5",
       "region": "US",
-      "regionName": "香港-🇨🇳",
+      "regionName": "美区",
       "status": "正常",
-      "checkTime": "2026-06-17 10:28:37",
-      "crawl_time": "2026-06-17 10:28:37",
-      "source_page": "https://tkbaohe.com/Shadowrocket/"
+      "checkTime": "2026-06-17 14:21:35",
+      "crawl_time": "2026-06-17 14:21:35",
+      "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
 }
