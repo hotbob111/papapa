@@ -1,18 +1,18 @@
 {
-  "update_time": "2026-06-17 23:14:40",
+  "update_time": "2026-06-18 02:29:44",
   "count": 2,
   "accounts": [
     {
-      "account": "Ro***@outlook.com",
-      "email": "RobertGregory2190AQm@outlook.com",
-      "fullEmail": "RobertGregory2190AQm@outlook.com",
-      "password": "GGbxSa2Jfm",
+      "account": "os***@outlook.com",
+      "email": "oscaliiliaht@outlook.com",
+      "fullEmail": "oscaliiliaht@outlook.com",
+      "password": "sg1RTZutvP",
       "region": "US",
-      "regionName": "香港-🇨🇳",
+      "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-06-17 23:14:37",
-      "crawl_time": "2026-06-17 23:14:37",
-      "source_page": "https://tkbaohe.com/Shadowrocket/"
+      "checkTime": "2026-06-18 02:29:44",
+      "crawl_time": "2026-06-18 02:29:44",
+      "source_page": "https://ccbaohe.com/appleID/"
     },
     {
       "account": "Da***@hotmail.com",
@@ -22,8 +22,8 @@
       "region": "US",
       "regionName": "台湾-🇨🇳",
       "status": "正常",
-      "checkTime": "2026-06-17 23:14:37",
-      "crawl_time": "2026-06-17 23:14:37",
+      "checkTime": "2026-06-18 02:29:40",
+      "crawl_time": "2026-06-18 02:29:40",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
