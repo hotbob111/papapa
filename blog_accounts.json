@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-06-19 17:09:38",
+  "update_time": "2026-06-19 19:22:30",
   "count": 2,
   "accounts": [
     {
-      "account": "sq***@outlook.com",
-      "email": "sq3s_6l6d8w4l1b8p4u0m5m7c4w@outlook.com",
-      "fullEmail": "sq3s_6l6d8w4l1b8p4u0m5m7c4w@outlook.com",
-      "password": "d6rY9fcs",
-      "region": "VN",
-      "regionName": "越南",
-      "status": "正常",
-      "checkTime": "2026-06-19 17:09:38",
-      "crawl_time": "2026-06-19 17:09:38",
-      "source_page": "https://ccbaohe.com/appleID/"
-    },
-    {
-      "account": "sa***@outlook.com",
-      "email": "sami_morenez@outlook.com",
-      "fullEmail": "sami_morenez@outlook.com",
-      "password": "U5PbGp6F6t",
+      "account": "pa***@outlook.com",
+      "email": "panbouso70@outlook.com",
+      "fullEmail": "panbouso70@outlook.com",
+      "password": "AbGTKCS4mM",
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-06-19 17:09:38",
-      "crawl_time": "2026-06-19 17:09:38",
+      "checkTime": "2026-06-19 19:22:30",
+      "crawl_time": "2026-06-19 19:22:30",
+      "source_page": "https://ccbaohe.com/appleID/"
+    },
+    {
+      "account": "te***@europe.com",
+      "email": "teoc24052@europe.com",
+      "fullEmail": "teoc24052@europe.com",
+      "password": "WdNyVp6aEf",
+      "region": "US",
+      "regionName": "美国",
+      "status": "正常",
+      "checkTime": "2026-06-19 19:22:30",
+      "crawl_time": "2026-06-19 19:22:30",
       "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
