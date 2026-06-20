@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-06-20 19:06:07",
+  "update_time": "2026-06-20 21:01:48",
   "count": 2,
   "accounts": [
     {
-      "account": "an***@outlook.com",
-      "email": "angie.costia@outlook.com",
-      "fullEmail": "angie.costia@outlook.com",
-      "password": "137N2ZKuQv",
-      "region": "US",
-      "regionName": "美国",
+      "account": "Ru***@hotmail.com",
+      "email": "RubenBuchanan2452@hotmail.com",
+      "fullEmail": "RubenBuchanan2452@hotmail.com",
+      "password": "1pTWVteXRd",
+      "region": "TW",
+      "regionName": "台湾",
       "status": "正常",
-      "checkTime": "2026-06-20 19:06:07",
-      "crawl_time": "2026-06-20 19:06:07",
-      "source_page": "https://ccbaohe.com/appleID/"
+      "checkTime": "2026-06-20 21:01:45",
+      "crawl_time": "2026-06-20 21:01:45",
+      "source_page": "https://tkbaohe.com/Shadowrocket/"
     },
     {
-      "account": "ik***@outlook.com",
-      "email": "ikramonita22@outlook.com",
-      "fullEmail": "ikramonita22@outlook.com",
-      "password": "bGYzjz9fHU",
+      "account": "Al***@gmail.com",
+      "email": "AllenMilliepyl879@gmail.com",
+      "fullEmail": "AllenMilliepyl879@gmail.com",
+      "password": "44s41NP3MD5pf3",
       "region": "US",
-      "regionName": "美国",
+      "regionName": "美区",
       "status": "正常",
-      "checkTime": "2026-06-20 19:06:07",
-      "crawl_time": "2026-06-20 19:06:07",
+      "checkTime": "2026-06-20 21:01:48",
+      "crawl_time": "2026-06-20 21:01:48",
       "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
