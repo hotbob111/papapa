@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-06-20 22:56:18",
+  "update_time": "2026-06-20 23:59:05",
   "count": 2,
   "accounts": [
     {
-      "account": "ta***@alumnidirector.com",
-      "email": "tanpu303@alumnidirector.com",
-      "fullEmail": "tanpu303@alumnidirector.com",
-      "password": "PZenWVT455",
+      "account": "Jo***@hotmail.com",
+      "email": "JoshuaShort2757@hotmail.com",
+      "fullEmail": "JoshuaShort2757@hotmail.com",
+      "password": "R7TbTHQBAx",
       "region": "US",
-      "regionName": "美国",
+      "regionName": "台湾-🇨🇳",
       "status": "正常",
-      "checkTime": "2026-06-20 22:56:18",
-      "crawl_time": "2026-06-20 22:56:18",
-      "source_page": "https://ccbaohe.com/appleID/"
+      "checkTime": "2026-06-20 23:59:02",
+      "crawl_time": "2026-06-20 23:59:02",
+      "source_page": "https://tkbaohe.com/Shadowrocket/"
     },
     {
-      "account": "ng***@outlook.com",
-      "email": "ng5d2j1d3v1j8_e3l1g4t2m7i4c@outlook.com",
-      "fullEmail": "ng5d2j1d3v1j8_e3l1g4t2m7i4c@outlook.com",
-      "password": "tjM8scWT",
-      "region": "VN",
-      "regionName": "越南",
+      "account": "kv***@outlook.com",
+      "email": "kv4k8_t4t7u7k7f3p1s5r7e6h1@outlook.com",
+      "fullEmail": "kv4k8_t4t7u7k7f3p1s5r7e6h1@outlook.com",
+      "password": "T57wQ6Nr",
+      "region": "HK",
+      "regionName": "香港",
       "status": "正常",
-      "checkTime": "2026-06-20 22:56:18",
-      "crawl_time": "2026-06-20 22:56:18",
+      "checkTime": "2026-06-20 23:59:05",
+      "crawl_time": "2026-06-20 23:59:05",
       "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
