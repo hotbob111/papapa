@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-06-21 15:43:41",
+  "update_time": "2026-06-21 17:16:00",
   "count": 2,
   "accounts": [
     {
-      "account": "pt***@outlook.com",
-      "email": "pt5f7b2f0q2i6i3_h3e2f1s1r7@outlook.com",
-      "fullEmail": "pt5f7b2f0q2i6i3_h3e2f1s1r7@outlook.com",
-      "password": "amaC9eVt",
+      "account": "dr***@outlook.com",
+      "email": "drew.morenacr@outlook.com",
+      "fullEmail": "drew.morenacr@outlook.com",
+      "password": "XMtr2G64Zq",
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-06-21 15:43:41",
-      "crawl_time": "2026-06-21 15:43:41",
+      "checkTime": "2026-06-21 17:16:00",
+      "crawl_time": "2026-06-21 17:16:00",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "nu***@hotmail.com",
-      "email": "nunesa.emtr@hotmail.com",
-      "fullEmail": "nunesa.emtr@hotmail.com",
-      "password": "CZRfk3nEKh",
+      "account": "qu***@gmail.com",
+      "email": "quodonnell@gmail.com",
+      "fullEmail": "quodonnell@gmail.com",
+      "password": "Dd10096da",
       "region": "US",
-      "regionName": "美国",
+      "regionName": "美区",
       "status": "正常",
-      "checkTime": "2026-06-21 15:43:41",
-      "crawl_time": "2026-06-21 15:43:41",
+      "checkTime": "2026-06-21 17:16:00",
+      "crawl_time": "2026-06-21 17:16:00",
       "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
