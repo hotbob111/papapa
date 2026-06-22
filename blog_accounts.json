@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-06-22 00:06:31",
+  "update_time": "2026-06-22 06:17:52",
   "count": 2,
   "accounts": [
     {
-      "account": "an***@bsdmail.com",
-      "email": "anyongchun375@bsdmail.com",
-      "fullEmail": "anyongchun375@bsdmail.com",
-      "password": "TDYVd89K8gGm",
+      "account": "mi***@hotmail.com",
+      "email": "michinenorai@hotmail.com",
+      "fullEmail": "michinenorai@hotmail.com",
+      "password": "Hs260613",
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-06-22 00:06:31",
-      "crawl_time": "2026-06-22 00:06:31",
+      "checkTime": "2026-06-22 06:17:52",
+      "crawl_time": "2026-06-22 06:17:52",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "la***@comic.com",
-      "email": "langlu793@comic.com",
-      "fullEmail": "langlu793@comic.com",
-      "password": "TDcCTe5cWCNM",
-      "region": "US",
-      "regionName": "美国",
+      "account": "nj***@outlook.com",
+      "email": "nj5v3s8e8w1k8s_3t8p7g5v2g8@outlook.com",
+      "fullEmail": "nj5v3s8e8w1k8s_3t8p7g5v2g8@outlook.com",
+      "password": "1t5E2r9V",
+      "region": "VN",
+      "regionName": "越南",
       "status": "正常",
-      "checkTime": "2026-06-22 00:06:31",
-      "crawl_time": "2026-06-22 00:06:31",
+      "checkTime": "2026-06-22 06:17:52",
+      "crawl_time": "2026-06-22 06:17:52",
       "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
