@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-06-23 02:52:05",
+  "update_time": "2026-06-23 06:37:35",
   "count": 2,
   "accounts": [
     {
-      "account": "Br***@outlook.com",
-      "email": "BraucherBertelson928@outlook.com",
-      "fullEmail": "BraucherBertelson928@outlook.com",
-      "password": "jU4HE1NQj8",
+      "account": "Ch***@outlook.com",
+      "email": "ChouinardDahnke658@outlook.com",
+      "fullEmail": "ChouinardDahnke658@outlook.com",
+      "password": "S4QpzfRa8H",
       "region": "US",
-      "regionName": "美国",
+      "regionName": "美国-🇺",
       "status": "正常",
-      "checkTime": "2026-06-23 02:52:01",
-      "crawl_time": "2026-06-23 02:52:01",
+      "checkTime": "2026-06-23 06:37:32",
+      "crawl_time": "2026-06-23 06:37:32",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     },
     {
-      "account": "pa***@outlook.com",
-      "email": "panbouso70@outlook.com",
-      "fullEmail": "panbouso70@outlook.com",
-      "password": "rz6J1WQbCP",
-      "region": "US",
-      "regionName": "美国",
+      "account": "vd***@outlook.com",
+      "email": "vd8k1q3f6j1p3d5u1d_7h1k2a3n0@outlook.com",
+      "fullEmail": "vd8k1q3f6j1p3d5u1d_7h1k2a3n0@outlook.com",
+      "password": "YMx8v87h",
+      "region": "JP",
+      "regionName": "日本",
       "status": "正常",
-      "checkTime": "2026-06-23 02:52:05",
-      "crawl_time": "2026-06-23 02:52:05",
+      "checkTime": "2026-06-23 06:37:35",
+      "crawl_time": "2026-06-23 06:37:35",
       "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
