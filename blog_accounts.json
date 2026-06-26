@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-06-26 05:01:19",
+  "update_time": "2026-06-26 08:46:50",
   "count": 2,
   "accounts": [
     {
-      "account": "vd***@outlook.com",
-      "email": "vd8k1q3f6j1p3d5u1d_7h1k2a3n0@outlook.com",
-      "fullEmail": "vd8k1q3f6j1p3d5u1d_7h1k2a3n0@outlook.com",
-      "password": "bPzAPr54",
-      "region": "JP",
-      "regionName": "日本",
+      "account": "kv***@outlook.com",
+      "email": "kv4k8_t4t7u7k7f3p1s5r7e6h1@outlook.com",
+      "fullEmail": "kv4k8_t4t7u7k7f3p1s5r7e6h1@outlook.com",
+      "password": "zfGxSRk4",
+      "region": "GB",
+      "regionName": "英国",
       "status": "正常",
-      "checkTime": "2026-06-26 05:01:19",
-      "crawl_time": "2026-06-26 05:01:19",
+      "checkTime": "2026-06-26 08:46:50",
+      "crawl_time": "2026-06-26 08:46:50",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
       "account": "Br***@outlook.com",
-      "email": "BraucherBertelson928@outlook.com",
-      "fullEmail": "BraucherBertelson928@outlook.com",
-      "password": "jU4HE1NQj8",
+      "email": "BrittanyAnderson42170e@outlook.com",
+      "fullEmail": "BrittanyAnderson42170e@outlook.com",
+      "password": "p5cV4bKAy1",
       "region": "US",
-      "regionName": "美国-🇺",
+      "regionName": "香港-🇨🇳",
       "status": "正常",
-      "checkTime": "2026-06-26 05:01:16",
-      "crawl_time": "2026-06-26 05:01:16",
+      "checkTime": "2026-06-26 08:46:47",
+      "crawl_time": "2026-06-26 08:46:47",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
