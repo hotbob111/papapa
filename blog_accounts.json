@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-06-29 20:46:06",
+  "update_time": "2026-06-29 22:02:22",
   "count": 2,
   "accounts": [
     {
-      "account": "rm***@outlook.com",
-      "email": "rm6n4j5q3u6w7a8u0p7m5_w4h8g@outlook.com",
-      "fullEmail": "rm6n4j5q3u6w7a8u0p7m5_w4h8g@outlook.com",
-      "password": "RKQ7AN5t",
-      "region": "CN",
-      "regionName": "中国大陆",
+      "account": "jo***@hotmail.com",
+      "email": "joy_steva_101@hotmail.com",
+      "fullEmail": "joy_steva_101@hotmail.com",
+      "password": "sFFaejr44Q",
+      "region": "US",
+      "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-06-29 20:46:06",
-      "crawl_time": "2026-06-29 20:46:06",
+      "checkTime": "2026-06-29 22:02:22",
+      "crawl_time": "2026-06-29 22:02:22",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "Ju***@hotmail.com",
-      "email": "JungDenooyer934@hotmail.com",
-      "fullEmail": "JungDenooyer934@hotmail.com",
-      "password": "xxvkpRW2",
-      "region": "HK",
-      "regionName": "香港",
+      "account": "ch***@hotmail.com",
+      "email": "charooklicathar@hotmail.com",
+      "fullEmail": "charooklicathar@hotmail.com",
+      "password": "wCfDC3SCmH",
+      "region": "US",
+      "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-06-29 20:46:06",
-      "crawl_time": "2026-06-29 20:46:06",
+      "checkTime": "2026-06-29 22:02:22",
+      "crawl_time": "2026-06-29 22:02:22",
       "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
