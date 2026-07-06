@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-06 22:54:41",
+  "update_time": "2026-07-06 23:56:16",
   "count": 2,
   "accounts": [
     {
@@ -10,20 +10,20 @@
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-07-06 22:54:38",
-      "crawl_time": "2026-07-06 22:54:38",
+      "checkTime": "2026-07-06 23:56:13",
+      "crawl_time": "2026-07-06 23:56:13",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     },
     {
-      "account": "Em***@hotmail.com",
-      "email": "EmilyBecker2031@hotmail.com",
-      "fullEmail": "EmilyBecker2031@hotmail.com",
-      "password": "gmF1W5cAds",
-      "region": "TW",
-      "regionName": "台湾",
+      "account": "Ma***@outlook.com",
+      "email": "MarissaSnyder4380@outlook.com",
+      "fullEmail": "MarissaSnyder4380@outlook.com",
+      "password": "a2pWbpvYzf",
+      "region": "JP",
+      "regionName": "日本",
       "status": "正常",
-      "checkTime": "2026-07-06 22:54:38",
-      "crawl_time": "2026-07-06 22:54:38",
+      "checkTime": "2026-07-06 23:56:13",
+      "crawl_time": "2026-07-06 23:56:13",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
