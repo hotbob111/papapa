@@ -1,30 +1,30 @@
 {
-  "update_time": "2026-07-17 09:43:48",
+  "update_time": "2026-07-17 11:12:36",
   "count": 2,
   "accounts": [
     {
-      "account": "Br***@outlook.co.nz",
-      "email": "BrettGolden73350U@outlook.co.nz",
-      "fullEmail": "BrettGolden73350U@outlook.co.nz",
-      "password": "6bsE9JqpTS",
-      "region": "VN",
-      "regionName": "越南",
+      "account": "ja***@gmail.com",
+      "email": "jarvarisrivetteuf3409@gmail.com",
+      "fullEmail": "jarvarisrivetteuf3409@gmail.com",
+      "password": "VG7j2eeg4C",
+      "region": "US",
+      "regionName": "美区",
       "status": "正常",
-      "checkTime": "2026-07-17 09:43:48",
-      "crawl_time": "2026-07-17 09:43:48",
+      "checkTime": "2026-07-17 11:12:36",
+      "crawl_time": "2026-07-17 11:12:36",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "Bt***@outlook.com",
-      "email": "Bttzm23625@outlook.com",
-      "fullEmail": "Bttzm23625@outlook.com",
-      "password": "kXuAApF1uu",
-      "region": "JP",
-      "regionName": "日本",
+      "account": "ho***@freemail.hu",
+      "email": "horvathvargazoli@freemail.hu",
+      "fullEmail": "horvathvargazoli@freemail.hu",
+      "password": "AqPAQ5Tz9g",
+      "region": "US",
+      "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-07-17 09:43:44",
-      "crawl_time": "2026-07-17 09:43:44",
-      "source_page": "https://tkbaohe.com/Shadowrocket/"
+      "checkTime": "2026-07-17 11:12:36",
+      "crawl_time": "2026-07-17 11:12:36",
+      "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
 }
