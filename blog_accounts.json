@@ -1,30 +1,30 @@
 {
-  "update_time": "2026-07-19 09:41:48",
+  "update_time": "2026-07-19 11:02:14",
   "count": 2,
   "accounts": [
     {
-      "account": "sh***@outlook.com",
-      "email": "shapbl53@outlook.com",
-      "fullEmail": "shapbl53@outlook.com",
-      "password": "nMHCza8RWG",
-      "region": "US",
-      "regionName": "美国",
+      "account": "wa***@outlook.com",
+      "email": "wanses1@outlook.com",
+      "fullEmail": "wanses1@outlook.com",
+      "password": "SvAPTTfX4m",
+      "region": "CN",
+      "regionName": "中国大陆",
       "status": "正常",
-      "checkTime": "2026-07-19 09:41:48",
-      "crawl_time": "2026-07-19 09:41:48",
-      "source_page": "https://ccbaohe.com/appleID/"
+      "checkTime": "2026-07-19 11:02:11",
+      "crawl_time": "2026-07-19 11:02:11",
+      "source_page": "https://tkbaohe.com/Shadowrocket/"
     },
     {
-      "account": "nj***@hhl123.club",
-      "email": "njyy1057@hhl123.club",
-      "fullEmail": "njyy1057@hhl123.club",
-      "password": "jCPuE42PAg",
-      "region": "HK",
-      "regionName": "香港",
+      "account": "yo***@163.com",
+      "email": "youyudenailao@163.com",
+      "fullEmail": "youyudenailao@163.com",
+      "password": "2gVGqVjzYU",
+      "region": "US",
+      "regionName": "美区小火箭id",
       "status": "正常",
-      "checkTime": "2026-07-19 09:41:48",
-      "crawl_time": "2026-07-19 09:41:48",
-      "source_page": "https://ccbaohe.com/appleID/"
+      "checkTime": "2026-07-19 11:02:11",
+      "crawl_time": "2026-07-19 11:02:11",
+      "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
 }
