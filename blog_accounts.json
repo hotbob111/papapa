@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-07-29 10:26:13",
+  "update_time": "2026-07-29 12:53:44",
   "count": 2,
   "accounts": [
     {
-      "account": "27***@qq.com",
-      "email": "2755458267@qq.com",
-      "fullEmail": "2755458267@qq.com",
-      "password": "3zJ9QMaaDg",
+      "account": "De***@icloud.com",
+      "email": "DeborazpiHarr967@icloud.com",
+      "fullEmail": "DeborazpiHarr967@icloud.com",
+      "password": "x5Qt9ch9m9",
       "region": "US",
-      "regionName": "美国",
+      "regionName": "美区",
       "status": "正常",
-      "checkTime": "2026-07-29 10:26:09",
-      "crawl_time": "2026-07-29 10:26:09",
-      "source_page": "https://tkbaohe.com/Shadowrocket/"
+      "checkTime": "2026-07-29 12:53:44",
+      "crawl_time": "2026-07-29 12:53:44",
+      "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "Ma***@outlook.com",
-      "email": "MarissaSnyder4380@outlook.com",
-      "fullEmail": "MarissaSnyder4380@outlook.com",
-      "password": "XYg3pN8S6W",
-      "region": "VN",
-      "regionName": "越南",
+      "account": "so***@hotmail.com",
+      "email": "soleil.kairis@hotmail.com",
+      "fullEmail": "soleil.kairis@hotmail.com",
+      "password": "KJTVv5kHkU",
+      "region": "SG",
+      "regionName": "新加坡",
       "status": "正常",
-      "checkTime": "2026-07-29 10:26:09",
-      "crawl_time": "2026-07-29 10:26:09",
+      "checkTime": "2026-07-29 12:53:41",
+      "crawl_time": "2026-07-29 12:53:41",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
