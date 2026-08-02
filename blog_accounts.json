@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-08-01 23:46:46",
+  "update_time": "2026-08-02 01:27:21",
   "count": 2,
   "accounts": [
     {
-      "account": "De***@icloud.com",
-      "email": "DeborazpiHarr967@icloud.com",
-      "fullEmail": "DeborazpiHarr967@icloud.com",
-      "password": "x5Qt9ch9m9",
-      "region": "US",
-      "regionName": "美区",
+      "account": "13***@163.com",
+      "email": "13659322492@163.com",
+      "fullEmail": "13659322492@163.com",
+      "password": "pf4EjkXKTX",
+      "region": "CN",
+      "regionName": "中国大陆",
       "status": "正常",
-      "checkTime": "2026-08-01 23:46:46",
-      "crawl_time": "2026-08-01 23:46:46",
+      "checkTime": "2026-08-02 01:27:21",
+      "crawl_time": "2026-08-02 01:27:21",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "ar***@hotmail.com",
-      "email": "arwinionescu@hotmail.com",
-      "fullEmail": "arwinionescu@hotmail.com",
-      "password": "PAZP7Pke9p",
+      "account": "Be***@gmail.com",
+      "email": "BettyGarcia5be56@gmail.com",
+      "fullEmail": "BettyGarcia5be56@gmail.com",
+      "password": "44s4nrRa3yZnJ5",
       "region": "US",
-      "regionName": "未知",
+      "regionName": "美区",
       "status": "正常",
-      "checkTime": "2026-08-01 23:46:46",
-      "crawl_time": "2026-08-01 23:46:46",
+      "checkTime": "2026-08-02 01:27:21",
+      "crawl_time": "2026-08-02 01:27:21",
       "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
