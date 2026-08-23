@@ -1,17 +1,17 @@
 {
-  "update_time": "2026-08-22 23:09:11",
+  "update_time": "2026-08-23 00:34:22",
   "count": 2,
   "accounts": [
     {
-      "account": "13***@163.com",
-      "email": "13819192265@163.com",
-      "fullEmail": "13819192265@163.com",
-      "password": "kZubhx3Ua3",
+      "account": "jo***@icloud.com",
+      "email": "joshuah5078@icloud.com",
+      "fullEmail": "joshuah5078@icloud.com",
+      "password": "3aDNzUxtN2",
       "region": "US",
-      "regionName": "美国",
+      "regionName": "设置",
       "status": "正常",
-      "checkTime": "2026-08-22 23:09:11",
-      "crawl_time": "2026-08-22 23:09:11",
+      "checkTime": "2026-08-23 00:34:22",
+      "crawl_time": "2026-08-23 00:34:22",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
@@ -22,8 +22,8 @@
       "region": "US",
       "regionName": "未知",
       "status": "正常",
-      "checkTime": "2026-08-22 23:09:10",
-      "crawl_time": "2026-08-22 23:09:10",
+      "checkTime": "2026-08-23 00:34:22",
+      "crawl_time": "2026-08-23 00:34:22",
       "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
