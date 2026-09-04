@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-09-04 06:38:54",
+  "update_time": "2026-09-04 11:50:02",
   "count": 2,
   "accounts": [
     {
-      "account": "18***@163.com",
-      "email": "18663137660@163.com",
-      "fullEmail": "18663137660@163.com",
-      "password": "HDAM4h5uc8",
-      "region": "VN",
-      "regionName": "越南",
+      "account": "De***@icloud.com",
+      "email": "DeborazpiHarr967@icloud.com",
+      "fullEmail": "DeborazpiHarr967@icloud.com",
+      "password": "x5Qt9ch9m9",
+      "region": "US",
+      "regionName": "美区",
       "status": "正常",
-      "checkTime": "2026-09-04 06:38:54",
-      "crawl_time": "2026-09-04 06:38:54",
+      "checkTime": "2026-09-04 11:50:02",
+      "crawl_time": "2026-09-04 11:50:02",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "13***@163.com",
-      "email": "13903189762@163.com",
-      "fullEmail": "13903189762@163.com",
-      "password": "F72nuvwH9T",
-      "region": "VN",
-      "regionName": "越南",
+      "account": "18***@163.com",
+      "email": "18874538177@163.com",
+      "fullEmail": "18874538177@163.com",
+      "password": "4hRgXkAdwr",
+      "region": "US",
+      "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-09-04 06:38:50",
-      "crawl_time": "2026-09-04 06:38:50",
+      "checkTime": "2026-09-04 11:49:59",
+      "crawl_time": "2026-09-04 11:49:59",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
