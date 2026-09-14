@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-09-13 23:43:34",
+  "update_time": "2026-09-14 02:02:30",
   "count": 2,
   "accounts": [
     {
-      "account": "13***@qq.com",
-      "email": "1365754042@qq.com",
-      "fullEmail": "1365754042@qq.com",
-      "password": "DhCJ6Mf7sC",
-      "region": "CN",
-      "regionName": "中国大陆",
+      "account": "13***@163.com",
+      "email": "13802456419@163.com",
+      "fullEmail": "13802456419@163.com",
+      "password": "EEQ7DW6a8j",
+      "region": "US",
+      "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-09-13 23:43:34",
-      "crawl_time": "2026-09-13 23:43:34",
-      "source_page": "https://ccbaohe.com/appleID/"
+      "checkTime": "2026-09-14 02:02:27",
+      "crawl_time": "2026-09-14 02:02:27",
+      "source_page": "https://tkbaohe.com/Shadowrocket/"
     },
     {
-      "account": "qu***@gmail.com",
-      "email": "quodonnell@gmail.com",
-      "fullEmail": "quodonnell@gmail.com",
-      "password": "Dd10096da",
+      "account": "13***@163.com",
+      "email": "13970130865@163.com",
+      "fullEmail": "13970130865@163.com",
+      "password": "aS4YDdB9yj",
       "region": "US",
-      "regionName": "美区",
+      "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-09-13 23:43:31",
-      "crawl_time": "2026-09-13 23:43:31",
+      "checkTime": "2026-09-14 02:02:27",
+      "crawl_time": "2026-09-14 02:02:27",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
