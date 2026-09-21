@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-09-21 08:17:10",
+  "update_time": "2026-09-21 15:24:41",
   "count": 2,
   "accounts": [
     {
-      "account": "ja***@gmail.com",
-      "email": "jarvarisrivetteuf3409@gmail.com",
-      "fullEmail": "jarvarisrivetteuf3409@gmail.com",
-      "password": "VG7j2eeg4C",
+      "account": "qu***@gmail.com",
+      "email": "quodonnell@gmail.com",
+      "fullEmail": "quodonnell@gmail.com",
+      "password": "Dd10096da",
       "region": "US",
       "regionName": "美区",
       "status": "正常",
-      "checkTime": "2026-09-21 08:17:10",
-      "crawl_time": "2026-09-21 08:17:10",
+      "checkTime": "2026-09-21 15:24:41",
+      "crawl_time": "2026-09-21 15:24:41",
       "source_page": "https://ccbaohe.com/appleID/"
     },
     {
-      "account": "13***@163.com",
-      "email": "13857750360@163.com",
-      "fullEmail": "13857750360@163.com",
-      "password": "6Cgwc1nBvM",
+      "account": "hy***@126.com",
+      "email": "hy_19880315@126.com",
+      "fullEmail": "hy_19880315@126.com",
+      "password": "AZM58FUrFg",
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-09-21 08:17:10",
-      "crawl_time": "2026-09-21 08:17:10",
+      "checkTime": "2026-09-21 15:24:41",
+      "crawl_time": "2026-09-21 15:24:41",
       "source_page": "https://ccbaohe.com/appleID/"
     }
   ]
