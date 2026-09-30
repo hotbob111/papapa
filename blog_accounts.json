@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-09-30 01:42:29",
+  "update_time": "2026-09-30 07:37:02",
   "count": 2,
   "accounts": [
     {
-      "account": "Al***@gmail.com",
-      "email": "AllenMilliepyl879@gmail.com",
-      "fullEmail": "AllenMilliepyl879@gmail.com",
-      "password": "44s41NP3MD5pf3",
+      "account": "fo***@163.com",
+      "email": "fox1ae@163.com",
+      "fullEmail": "fox1ae@163.com",
+      "password": "tH2NhUQtnq",
       "region": "US",
-      "regionName": "美区",
+      "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-09-30 01:42:26",
-      "crawl_time": "2026-09-30 01:42:26",
+      "checkTime": "2026-09-30 07:36:59",
+      "crawl_time": "2026-09-30 07:36:59",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     },
     {
-      "account": "Ta***@outlook.com",
-      "email": "TaylorKing6316@outlook.com",
-      "fullEmail": "TaylorKing6316@outlook.com",
-      "password": "CR3YjrEW5K",
-      "region": "VN",
-      "regionName": "越南",
+      "account": "De***@icloud.com",
+      "email": "DeborazpiHarr967@icloud.com",
+      "fullEmail": "DeborazpiHarr967@icloud.com",
+      "password": "x5Qt9ch9m9",
+      "region": "US",
+      "regionName": "美区",
       "status": "正常",
-      "checkTime": "2026-09-30 01:42:26",
-      "crawl_time": "2026-09-30 01:42:26",
+      "checkTime": "2026-09-30 07:36:59",
+      "crawl_time": "2026-09-30 07:36:59",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
