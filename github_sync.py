@@ -8,7 +8,8 @@ import random
 import subprocess
 import sys
 import os
-from datetime import datetime
+import re
+from datetime import datetime, timedelta, timezone
 import logging
 
 logging.basicConfig(
@@ -16,6 +17,12 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+SHANGHAI_TZ = timezone(timedelta(hours=8), name="Asia/Shanghai")
+
+
+def now_shanghai() -> str:
+    return datetime.now(SHANGHAI_TZ).strftime('%Y-%m-%d %H:%M:%S')
 
 
 class GitHubSync:
@@ -44,25 +51,51 @@ class GitHubSync:
         except json.JSONDecodeError as e:
             logger.error(f"JSON解析错误: {e}")
             return []
+
+    @staticmethod
+    def clean_accounts(accounts: list) -> list:
+        """过滤无效邮箱和中国大陆账号，并将未知地区统一为美国。"""
+        cleaned = []
+        region_code_map = {
+            '美国': 'US', '美区': 'US', '美区ID': 'US', '美区小火箭ID': 'US',
+            '香港': 'HK', '台湾': 'TW', '日本': 'JP', '韩国': 'KR',
+            '新加坡': 'SG', '英国': 'GB', '俄罗斯': 'RU', '越南': 'VN',
+            '马来西亚': 'MY'
+        }
+        region_name_map = {
+            'US': '美国', 'HK': '香港', 'TW': '台湾', 'JP': '日本',
+            'KR': '韩国', 'SG': '新加坡', 'GB': '英国', 'RU': '俄罗斯',
+            'VN': '越南', 'MY': '马来西亚'
+        }
+
+        for acc in accounts:
+            email = (acc.get('fullEmail') or acc.get('email') or '').strip()
+            if not re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+', email):
+                logger.warning(f"跳过无效邮箱记录: {email or '空邮箱'}")
+                continue
+
+            raw_code = (acc.get('region') or '').strip().upper()
+            raw_name = (acc.get('regionName') or '').strip()
+            if raw_code == 'CN' or raw_name in ('中国', '中国大陆'):
+                logger.info(f"跳过中国大陆账号: {email}")
+                continue
+
+            region_code = raw_code if raw_code in region_name_map else region_code_map.get(raw_name, 'US')
+            normalized = dict(acc)
+            normalized['email'] = email
+            normalized['fullEmail'] = email
+            normalized['region'] = region_code
+            normalized['regionName'] = region_name_map.get(region_code, '美国')
+            cleaned.append(normalized)
+
+        return cleaned
     
     def create_api_file(self, accounts: list, filename: str = 'api_data.json'):
         """创建API数据文件（供网站后台使用，符合网站格式要求）"""
         import time
         
-        # 加载VPN广告数据
-        vpn_ads = []
-        vpn_file = 'vpn_ads.json'
-        try:
-            if os.path.exists(vpn_file):
-                with open(vpn_file, 'r', encoding='utf-8') as f:
-                    vpn_data = json.load(f)
-                    if isinstance(vpn_data, list):
-                        vpn_ads = vpn_data
-                    elif isinstance(vpn_data, dict) and 'vpn_ads' in vpn_data:
-                        vpn_ads = vpn_data['vpn_ads']
-        except:
-            pass
-        
+        accounts = self.clean_accounts(accounts)
+
         # 格式化账号数据
         formatted_accounts = []
         region_name_map = {
@@ -85,14 +118,18 @@ class GitHubSync:
                 '俄罗斯': 'RU', '越南': 'VN', '马来西亚': 'MY'
             }
             region_code = region_code_map.get(region_text, 'US')
-            region_name = region_text  # 使用region_text（如果为空则已经是"美国"）
+            region_name = {
+                'US': '美国', 'HK': '香港', 'TW': '台湾', 'JP': '日本',
+                'KR': '韩国', 'SG': '新加坡', 'GB': '英国', 'RU': '俄罗斯',
+                'VN': '越南', 'MY': '马来西亚'
+            }.get(region_code, '美国')
             
             formatted_accounts.append({
                 'id': f'1-{i}',
                 'fullEmail': acc.get('fullEmail') or acc.get('email', ''),
                 'password': acc.get('password', ''),
                 'status': acc.get('status', '正常'),
-                'checkTime': acc.get('checkTime') or acc.get('crawl_time', datetime.now().strftime('%Y-%m-%d %H:%M:%S')),
+                'checkTime': acc.get('checkTime') or acc.get('crawl_time', now_shanghai()),
                 'region': region_code,
                 'regionName': region_name
             })
@@ -105,7 +142,8 @@ class GitHubSync:
                     'group1': formatted_accounts,
                     'group2': []
                 },
-                'vpn_ads': vpn_ads
+                # GitHub 只同步账号；服务器保留 data.json 中原有的 VPN 推荐。
+                'vpn_ads': []
             }
         }
         
@@ -116,6 +154,7 @@ class GitHubSync:
     
     def create_blog_file(self, accounts: list, filename: str = 'blog_accounts.json'):
         """创建博客数据文件（随机选择2个账号）"""
+        accounts = self.clean_accounts(accounts)
         if len(accounts) < 2:
             logger.warning("账号数量不足2个，无法创建博客文件")
             return
@@ -124,7 +163,7 @@ class GitHubSync:
         selected_accounts = random.sample(accounts, min(2, len(accounts)))
         
         blog_data = {
-            'update_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            'update_time': now_shanghai(),
             'count': len(selected_accounts),
             'accounts': selected_accounts
         }
@@ -136,6 +175,7 @@ class GitHubSync:
     
     def create_simple_file(self, accounts: list, filename: str = 'accounts_simple.json'):
         """创建简化版数据文件（邮箱、地区与登录辅助字段）"""
+        accounts = self.clean_accounts(accounts)
         simple_data = []
         for acc in accounts:
             simple_data.append({
@@ -152,7 +192,7 @@ class GitHubSync:
     def git_add_and_commit(self, files: list, message: str = None):
         """Git添加和提交"""
         if not message:
-            message = f"自动更新: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            message = f"自动更新: {now_shanghai()}"
         
         try:
             # 添加文件
@@ -251,5 +291,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
