@@ -2,7 +2,7 @@
 主执行脚本 - 从远程公开页拉取列表并同步到网站后台与 GitHub
 """
 
-from apple_id_crawler import RemoteFeedClient
+from apple_id_crawler import RemoteFeedClient, now_shanghai
 from github_sync import GitHubSync
 import os
 import logging
@@ -37,7 +37,7 @@ def main():
         # 即使没有账号，也创建空文件，避免Git错误
         import json
         with open('apple_ids.json', 'w', encoding='utf-8') as f:
-            json.dump({'accounts': [], 'total': 0, 'update_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S')}, f, ensure_ascii=False, indent=2)
+            json.dump({'accounts': [], 'total': 0, 'update_time': now_shanghai()}, f, ensure_ascii=False, indent=2)
         logger.info("已创建空的apple_ids.json文件")
         # 继续执行，生成其他文件
         accounts = []
@@ -49,7 +49,7 @@ def main():
     else:
         # 如果没有账号，创建空文件
         with open('apple_ids.json', 'w', encoding='utf-8') as f:
-            json.dump({'accounts': [], 'total': 0, 'update_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S')}, f, ensure_ascii=False, indent=2)
+            json.dump({'accounts': [], 'total': 0, 'update_time': now_shanghai()}, f, ensure_ascii=False, indent=2)
         with open('apple_ids_simple.json', 'w', encoding='utf-8') as f:
             json.dump({'accounts': [], 'total': 0}, f, ensure_ascii=False, indent=2)
         logger.info("已创建空的apple_ids.json和apple_ids_simple.json文件")
