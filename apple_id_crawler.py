@@ -11,7 +11,7 @@ import json
 import re
 import time
 from typing import List, Dict, Optional
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urlparse
 import logging
 
@@ -20,6 +20,13 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+SHANGHAI_TZ = timezone(timedelta(hours=8), name="Asia/Shanghai")
+
+
+def now_shanghai() -> str:
+    """返回统一的北京时间，避免 GitHub Actions 使用 UTC。"""
+    return datetime.now(SHANGHAI_TZ).strftime('%Y-%m-%d %H:%M:%S')
 
 
 class RemoteFeedClient:
@@ -358,7 +365,7 @@ class RemoteFeedClient:
                     'region': self._map_region(region),
                     'status': self._map_status(status),
                     'check_time': check_time,
-                    'crawl_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                    'crawl_time': now_shanghai()
                 }
                 
                 accounts.append(account_info)
@@ -730,15 +737,17 @@ class RemoteFeedClient:
                             status = status_match.group(1).strip()
                 
                 # 提取检测时间
-                check_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-                # 查找所有card-text元素
-                time_elems = card_body.find_all('p', class_='card-text')
+                fallback_check_time = now_shanghai()
+                check_time = fallback_check_time
+                # 来源站点可能把时间放在 card-title（账号更新）或 card-text（检测时间）。
+                time_elems = card_body.select('p.card-title, p.card-text')
                 for time_elem in time_elems:
                     time_text = time_elem.get_text().strip()
                     # 检查是否包含时间信息
                     if '检测时间' in time_text or '更新' in time_text or re.search(r'\d{4}-\d{2}-\d{2}', time_text):
                         # 尝试多种时间格式
                         time_patterns = [
+                            r'账号更新[：:]\s*([0-9]{4}-[0-9]{2}-[0-9]{2}\s+[0-9]{2}:[0-9]{2}:[0-9]{2})',
                             r'检测时间[：:]\s*([^\n]+)',  # 检测时间：2025-11-07 01:34:08
                             r'检测时间[：:]\s*([0-9]{4}-[0-9]{2}-[0-9]{2}\s+[0-9]{2}:[0-9]{2}:[0-9]{2})',  # 完整时间格式
                             r'([0-9]{4}-[0-9]{2}-[0-9]{2}\s+[0-9]{2}:[0-9]{2}:[0-9]{2})',  # 直接匹配时间格式
@@ -750,7 +759,7 @@ class RemoteFeedClient:
                             if time_match:
                                 check_time = time_match.group(1).strip()
                                 break
-                        if check_time != datetime.now().strftime('%Y-%m-%d %H:%M:%S'):
+                        if check_time != fallback_check_time:
                             break
                 
                 # 如果地区为空，尝试从card-body中查找（但要排除状态区域）
@@ -790,8 +799,8 @@ class RemoteFeedClient:
                         'region': self._map_region(region) if region else 'US',
                         'regionName': region if region else '美国',
                         'status': self._map_status(status),
-                        'checkTime': check_time if check_time else datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                        'crawl_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                        'checkTime': check_time if check_time else now_shanghai(),
+                        'crawl_time': now_shanghai()
                     })
                     logger.info(f"✅ 解析条目: {email} ({region or '未知'}) 字段预览: {password[:10]}...")
             
@@ -840,6 +849,26 @@ class RemoteFeedClient:
             new_count = 0
             for acc in page_accounts:
                 email_key = (acc.get("fullEmail") or acc.get("email") or "").strip().lower()
+                if not re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+', email_key):
+                    logger.warning(f"跳过无效邮箱记录: {email_key or '空邮箱'}")
+                    continue
+
+                # 中国大陆账号不进入任何输出文件；无法识别的地区继续按美国处理。
+                region_code = (acc.get('region') or '').strip().upper()
+                if region_code == 'CN' or '中国大陆' in (acc.get('regionName') or ''):
+                    logger.info(f"跳过中国大陆账号: {email_key}")
+                    continue
+                region_names = {
+                    'US': '美国', 'HK': '香港', 'TW': '台湾', 'JP': '日本',
+                    'KR': '韩国', 'SG': '新加坡', 'GB': '英国', 'RU': '俄罗斯',
+                    'VN': '越南', 'MY': '马来西亚'
+                }
+                if region_code not in region_names:
+                    acc['region'] = 'US'
+                    acc['regionName'] = '美国'
+                else:
+                    acc['region'] = region_code
+                    acc['regionName'] = region_names[region_code]
                 if email_key:
                     if email_key in seen_email:
                         continue
@@ -907,26 +936,24 @@ class RemoteFeedClient:
                 'fullEmail': acc.get('fullEmail') or acc.get('email', ''),
                 'password': acc.get('password', ''),
                 'status': acc.get('status', '正常'),
-                'checkTime': acc.get('checkTime') or acc.get('crawl_time', datetime.now().strftime('%Y-%m-%d %H:%M:%S')),
+                'checkTime': acc.get('checkTime') or acc.get('crawl_time', now_shanghai()),
                 'region': region_code,
                 'regionName': region_name
             })
-        
-        # 加载VPN广告数据（保持原样，不修改）
-        vpn_ads = self._load_vpn_ads()
         
         # 生成Unix时间戳
         timestamp = int(time.time())
         
         # 返回符合网站要求的格式
         return {
-            'timestamp': timestamp,
+                'timestamp': timestamp,
             'data': {
                 'accounts': {
                     'group1': formatted_accounts,
                     'group2': []  # group2保持为空
                 },
-                'vpn_ads': vpn_ads  # VPN广告部分保持原样，不修改
+                # 账号接口不下发 VPN 推荐，服务器继续使用本地 data.json。
+                'vpn_ads': []
             }
         }
     
@@ -974,7 +1001,7 @@ class RemoteFeedClient:
         """保存到JSON文件"""
         data = {
             'total': len(self.accounts),
-            'update_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            'update_time': now_shanghai(),
             'source_url': self.base_url,
             'source_urls': self.source_urls,
             'accounts': self.accounts
