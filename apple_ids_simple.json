@@ -1,37 +1,7 @@
 [
   {
-    "email": "yukewang7788@163.com",
-    "password": "F2beKwqb1v",
-    "region": "TW"
-  },
-  {
-    "email": "18742429530@163.com",
-    "password": "Tbs85Tp5pg",
-    "region": "HK"
-  },
-  {
-    "email": "k7893v01@icloud.com",
-    "password": "nXr6chu8FM",
-    "region": "JP"
-  },
-  {
-    "email": "TaylorKing6316@outlook.com",
-    "password": "JwUpu24hyw",
-    "region": "HK"
-  },
-  {
-    "email": "JoelWoodrqu@outlook.com",
-    "password": "5Y2eZ2GCxT",
-    "region": "KR"
-  },
-  {
-    "email": "arwinionescu@hotmail.com",
-    "password": "PAZP7Pke9p",
-    "region": "US"
-  },
-  {
-    "email": "tisacantara@hotmail.com",
-    "password": "vU4RrgJxnS",
+    "email": "DeborazpiHarr967@icloud.com",
+    "password": "x5Qt9ch9m9",
     "region": "US"
   },
   {
@@ -40,14 +10,14 @@
     "region": "US"
   },
   {
-    "email": "DeborazpiHarr967@icloud.com",
-    "password": "x5Qt9ch9m9",
-    "region": "US"
-  },
-  {
     "email": "jarvarisrivetteuf3409@gmail.com",
     "password": "VG7j2eeg4C",
     "region": "US"
+  },
+  {
+    "email": "JoelWoodrqu@outlook.com",
+    "password": "aqcEEQE2RP",
+    "region": "KR"
   },
   {
     "email": "AllenMilliepyl879@gmail.com",
@@ -55,8 +25,38 @@
     "region": "US"
   },
   {
+    "email": "TaylorKing6316@outlook.com",
+    "password": "shtmyBKk4h",
+    "region": "HK"
+  },
+  {
+    "email": "18742429530@163.com",
+    "password": "Tbs85Tp5pg",
+    "region": "HK"
+  },
+  {
     "email": "BettyGarcia5be56@gmail.com",
     "password": "44s4nrRa3yZnJ5",
+    "region": "US"
+  },
+  {
+    "email": "yukewang7788@163.com",
+    "password": "F2beKwqb1v",
+    "region": "TW"
+  },
+  {
+    "email": "k7893v01@icloud.com",
+    "password": "jDwDTjTF5Y",
+    "region": "JP"
+  },
+  {
+    "email": "tisacantara@hotmail.com",
+    "password": "vU4RrgJxnS",
+    "region": "US"
+  },
+  {
+    "email": "arwinionescu@hotmail.com",
+    "password": "PAZP7Pke9p",
     "region": "US"
   }
 ]
