@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-11-14 19:51:16",
+  "update_time": "2026-11-15 01:24:46",
   "count": 2,
   "accounts": [
     {
-      "account": "Al***@gmail.com",
-      "email": "AllenMilliepyl879@gmail.com",
-      "fullEmail": "AllenMilliepyl879@gmail.com",
-      "password": "44s41NP3MD5pf3",
+      "account": "ni***@163.com",
+      "email": "nivoci@163.com",
+      "fullEmail": "nivoci@163.com",
+      "password": "hm7b1h7YWx1Z",
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-11-14 16:30:21",
-      "crawl_time": "2026-11-14 19:51:16",
-      "source_page": "https://ccbaohe.com/appleID/"
+      "checkTime": "2026-11-15 01:24:42",
+      "crawl_time": "2026-11-15 01:24:42",
+      "source_page": "https://tkbaohe.com/Shadowrocket/"
     },
     {
-      "account": "hv***@163.com",
-      "email": "hvtnhj@163.com",
-      "fullEmail": "hvtnhj@163.com",
-      "password": "GAJC44HZAPf3",
+      "account": "ly***@163.com",
+      "email": "ly901@163.com",
+      "fullEmail": "ly901@163.com",
+      "password": "pdWfJ7vTYpUq",
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-11-14 19:25:16",
-      "crawl_time": "2026-11-14 19:51:12",
+      "checkTime": "2026-11-15 01:24:42",
+      "crawl_time": "2026-11-15 01:24:42",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
