@@ -1,29 +1,29 @@
 {
-  "update_time": "2026-11-18 02:50:28",
+  "update_time": "2026-11-18 09:25:06",
   "count": 2,
   "accounts": [
     {
-      "account": "ch***@163.com",
-      "email": "chuangyuan0611@163.com",
-      "fullEmail": "chuangyuan0611@163.com",
-      "password": "s84Y6chwvEwy",
+      "account": "zl***@163.com",
+      "email": "zladd12345@163.com",
+      "fullEmail": "zladd12345@163.com",
+      "password": "Mxcv6651",
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-11-18 02:50:24",
-      "crawl_time": "2026-11-18 02:50:24",
+      "checkTime": "2026-11-18 08:58:32",
+      "crawl_time": "2026-11-18 09:25:02",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     },
     {
-      "account": "lw***@163.com",
-      "email": "lwiiku@163.com",
-      "fullEmail": "lwiiku@163.com",
-      "password": "1XDQy6RH8Q41",
+      "account": "wa***@163.com",
+      "email": "wang516675@163.com",
+      "fullEmail": "wang516675@163.com",
+      "password": "EJD4JrbPwuAq",
       "region": "US",
       "regionName": "美国",
       "status": "正常",
-      "checkTime": "2026-11-18 02:26:32",
-      "crawl_time": "2026-11-18 02:50:24",
+      "checkTime": "2026-11-18 08:59:13",
+      "crawl_time": "2026-11-18 09:25:02",
       "source_page": "https://tkbaohe.com/Shadowrocket/"
     }
   ]
